@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+
+.admin_search--product{
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  background: green;
+}
+
+.admin_search--product input{
+  width: 350px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  background: red;
+  overflow: hidden;
+}
+
+li{
+  width: 100%;
+  text-align: center;
+  background: yellow;
+  cursor: pointer;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 30px;
+  line-height: 30px;
+}
+
+.dist_radio{
+  display: flex;
+  flex-direction: column;
+}
+
+.add_product{
+  display: flex;
+  flex-direction: column;
+}
+
+.add_product > div{
+  margin-top: 15px;
+}

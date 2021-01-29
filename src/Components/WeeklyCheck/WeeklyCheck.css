@@ -1,0 +1,18 @@
+.weekly_check{
+  display: flex;
+  height: 35px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.weekly_check:first-child{
+  background: green;
+}
+
+.weekly_check div{
+  flex: 14.28%;
+  text-align: center;
+  border-right: 1px solid black;
+  box-sizing: border-box;
+  margin: 0;
+}

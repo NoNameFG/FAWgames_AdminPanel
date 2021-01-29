@@ -1,0 +1,10 @@
+.admin_panel{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.admin_panel div{
+  margin: 20px;
+}

@@ -1,0 +1,23 @@
+.overdue_product:first-child{
+  background: green;
+}
+
+.overdue_product{
+  display: flex;
+  height: 35px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.overdue_product div{
+  margin: 0;
+  flex: 0 0 12.5%;
+  text-align: center;
+  border-right: 1px solid black;
+  box-sizing: border-box;
+}
+
+.overdue_input{
+  width: 100%;
+  padding: 0;
+}
